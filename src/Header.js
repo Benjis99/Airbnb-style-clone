@@ -4,14 +4,17 @@ import SearchIcon from "@mui/icons-material/Search";
 import LanguageIcon from "@mui/icons-material/Language";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Avatar } from "@mui/material";
+import { Link } from "react-router-dom";
+
 function Header() {
   return (
     <div className="header">
-      <img
-        className="header_icon"
-        src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Nyumbani_Hotel_Logo.png"
-      ></img>
-
+      <Link to="/">
+        <img
+          className="header_icon"
+          src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Nyumbani_Hotel_Logo.png"
+        ></img>
+      </Link>
       <div className="header_center">
         <input type="text"></input>
         <SearchIcon />

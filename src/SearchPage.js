@@ -1,6 +1,7 @@
 import React from "react";
 import "./SearchPage.css";
 import { Button } from "@mui/material";
+import SearchResult from "./SearchResult";
 
 function SearchPage() {
   return (
@@ -14,8 +15,24 @@ function SearchPage() {
         <Button variant="outlined">Rooms and beds </Button>
         <Button variant="outlined">More filters </Button>
       </div>
-
-      <SearchResult />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
     </div>
   );
 }
