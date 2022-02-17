@@ -33,6 +33,60 @@ function SearchPage() {
         price="570KR/Natt"
         total="5700KR/Totalt"
       />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
+      <SearchResult
+        img="https://www.theshelbourne.com/resourcefiles/roomssmallimages/heritage-parkview-guestroom.jpg"
+        location="Private room in center of Dubai"
+        title="Stay at this wonderful hotel "
+        description="1 guest | 1 bedroom | 1 bed | Kitchen | Free parking"
+        star={4.2}
+        price="570KR/Natt"
+        total="5700KR/Totalt"
+      />
     </div>
   );
 }
